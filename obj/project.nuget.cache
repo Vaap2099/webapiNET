@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "dgSpecHash": "5RAqClfmJwFBRUR/6jyGOjAKX30KagblKcHNvrj83iSt52BFAyP9gKAMMTBvqFYvGU+34RGy8rBiSTn2kSdUJQ==",
+  "success": true,
+  "projectFilePath": "C:\\platzi\\webapinet\\webapinet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vaap2\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.8\\microsoft.aspnetcore.openapi.7.0.8.nupkg.sha512",
+    "C:\\Users\\vaap2\\.nuget\\packages\\microsoft.extensions.apidescription.server\\7.0.8\\microsoft.extensions.apidescription.server.7.0.8.nupkg.sha512",
+    "C:\\Users\\vaap2\\.nuget\\packages\\microsoft.openapi\\1.6.5\\microsoft.openapi.1.6.5.nupkg.sha512",
+    "C:\\Users\\vaap2\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\vaap2\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\vaap2\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\vaap2\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Swashbuckle.AspNetCore 6.5.0 depende de Microsoft.Extensions.ApiDescription.Server (>= 6.0.5), pero no se encontró Microsoft.Extensions.ApiDescription.Server 6.0.5. Se resolvió una mejor coincidencia aproximada de Microsoft.Extensions.ApiDescription.Server 7.0.8.",
+      "libraryId": "Microsoft.Extensions.ApiDescription.Server",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Microsoft.AspNetCore.OpenApi 7.0.8 depende de Microsoft.OpenApi (>= 1.4.3), pero no se encontró Microsoft.OpenApi 1.4.3. Se resolvió una mejor coincidencia aproximada de Microsoft.OpenApi 1.6.5.",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Swashbuckle.AspNetCore.Swagger 6.5.0 depende de Microsoft.OpenApi (>= 1.2.3), pero no se encontró Microsoft.OpenApi 1.2.3. Se resolvió una mejor coincidencia aproximada de Microsoft.OpenApi 1.6.5.",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
