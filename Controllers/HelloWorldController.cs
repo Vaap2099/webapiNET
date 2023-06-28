@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using webapi;
 
 namespace webapinet.Controllers;
 
@@ -8,10 +9,21 @@ public class HelloWorldController : ControllerBase
 {
     IHelloWorldService helloWorldService;
 
-    public HelloWorldController(IHelloWorldService helloWorld)
+    TareasContext dbcontext;
+
+    public HelloWorldController(IHelloWorldService helloWorld, TareasContext db)
     {
         helloWorldService = helloWorld;
+        dbcontext = db;
 
+    }
+
+    [HttpGet]
+    [Route("createdb")]
+    public IActionResult CreateDatabase()
+    {
+        dbcontext.Database.EnsureCreated();
+        return Ok();
     }
 
     [HttpGet]
