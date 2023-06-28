@@ -26,7 +26,7 @@ public class CategoriaService : ICategoriaService
     {
         var categoriaActual = context.Categorias.Find(id);
 
-        if categoriaActual != null)
+        if (categoriaActual != null)
         {
             categoriaActual.Nombre = categoria.Nombre;
             categoriaActual.Descripcion = categoria.Descripcion;
