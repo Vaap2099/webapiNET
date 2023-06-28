@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "fsfYyuSh2yRuaIoNNIvnwaKHRfg1F4F8+gjWB8iFzeijb7LcV8wgvIXL6U2KnAa1yTkB2RFjbrEhJqlbz0LCYA==",
-  "success": false,
+  "dgSpecHash": "IUG5Om0v7wQogZzrs7zKbtfO+fPJ5TYaM+ZFuSSo3ZDzJVxRPKkuTuQ9XPcMhLIcs8pAtlgli5cFK6QhtnVXIA==",
+  "success": true,
   "projectFilePath": "C:\\platzi\\webapinet\\webapinet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vaap2\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
@@ -44,8 +44,9 @@
     "C:\\Users\\vaap2\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\vaap2\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\vaap2\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
-    "C:\\Users\\vaap2\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
+    "C:\\Users\\vaap2\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
     "C:\\Users\\vaap2\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",
+    "C:\\Users\\vaap2\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
     "C:\\Users\\vaap2\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
     "C:\\Users\\vaap2\\.nuget\\packages\\system.formats.asn1\\7.0.0\\system.formats.asn1.7.0.0.nupkg.sha512",
     "C:\\Users\\vaap2\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.31.0\\system.identitymodel.tokens.jwt.6.31.0.nupkg.sha512",
@@ -63,7 +64,7 @@
     "C:\\Users\\vaap2\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\vaap2\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512",
     "C:\\Users\\vaap2\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\vaap2\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\vaap2\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512",
     "C:\\Users\\vaap2\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\vaap2\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
@@ -252,26 +253,6 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "System.Configuration.ConfigurationManager 6.0.1 depende de System.Security.Cryptography.ProtectedData (>= 6.0.0), pero no se encontró System.Security.Cryptography.ProtectedData 6.0.0. Se resolvió una mejor coincidencia aproximada de System.Security.Cryptography.ProtectedData 7.0.0.",
-      "libraryId": "System.Security.Cryptography.ProtectedData",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "System.Configuration.ConfigurationManager 6.0.1 depende de System.Security.Permissions (>= 6.0.0), pero no se encontró System.Security.Permissions 6.0.0. Se resolvió una mejor coincidencia aproximada de System.Security.Permissions 7.0.0.",
-      "libraryId": "System.Security.Permissions",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
       "message": "Microsoft.Data.SqlClient 5.1.1 depende de System.Text.Encoding.CodePages (>= 6.0.0), pero no se encontró System.Text.Encoding.CodePages 6.0.0. Se resolvió una mejor coincidencia aproximada de System.Text.Encoding.CodePages 7.0.0.",
       "libraryId": "System.Text.Encoding.CodePages",
       "targetGraphs": [
@@ -289,18 +270,10 @@
       ]
     },
     {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Degradación del paquete detectada: System.Configuration.ConfigurationManager de 7.0.0 a 6.0.1. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n webapinet -> Microsoft.EntityFrameworkCore.SqlServer 7.0.8 -> Microsoft.Data.SqlClient 5.1.1 -> System.Runtime.Caching 7.0.0 -> System.Configuration.ConfigurationManager (>= 7.0.0) \r\n webapinet -> Microsoft.EntityFrameworkCore.SqlServer 7.0.8 -> Microsoft.Data.SqlClient 5.1.1 -> System.Configuration.ConfigurationManager (>= 6.0.1)",
-      "libraryId": "System.Configuration.ConfigurationManager",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Degradación del paquete detectada: System.Text.Json de 7.0.0 a 4.7.2. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n webapinet -> Microsoft.EntityFrameworkCore.SqlServer 7.0.8 -> Microsoft.Data.SqlClient 5.1.1 -> Azure.Identity 1.7.0 -> Azure.Core 1.25.0 -> System.Memory.Data 7.0.0 -> System.Text.Json (>= 7.0.0) \r\n webapinet -> Microsoft.EntityFrameworkCore.SqlServer 7.0.8 -> Microsoft.Data.SqlClient 5.1.1 -> Azure.Identity 1.7.0 -> System.Text.Json (>= 4.7.2)",
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "webapinet depende de System.Text.Json (>= 7.0.0), pero no se encontró System.Text.Json 7.0.0. Se resolvió una mejor coincidencia aproximada de System.Text.Json 7.0.3.",
       "libraryId": "System.Text.Json",
       "targetGraphs": [
         "net7.0"
